@@ -12,7 +12,7 @@ public:
 	Time(int, int, int);
 	Time(Time &);
 	~Time();
-	//Методы
+	//РњРµС‚РѕРґС‹
 	static int GetCount();
 	void SetTime(int, int, int);
 	void SetTime(Time &);
@@ -26,7 +26,7 @@ public:
 	void DecSec();
 	void DecMin();
 	void DecHour();	
-	//Перегрузка операторов
+	//РџРµСЂРµРіСЂСѓР·РєР° РѕРїРµСЂР°С‚РѕСЂРѕРІ
 	Time operator ++ ();
 	Time operator -- ();
 	Time operator ++ (int);
